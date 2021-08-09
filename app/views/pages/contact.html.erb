@@ -1,0 +1,24 @@
+
+<br>
+<br>
+<br>
+
+<% toto =  "tata" %>
+
+<%= toto %>
+<form action="/contact" method="get">
+  <input type="text" name="member" placeholder="Who are you looking for?">
+  <input type="submit">
+</form>
+
+
+<% @restaurants.each do |restaurant| %>
+<div>
+  <h1><%= restaurant.name %></h1>
+</div>
+<ul>
+  <li><%= member %></li>
+</ul>
+<% end %>
+
+
